@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="połączenie w strone.css">
+	</head>
+	<body>
+		<div class="main-container">
+			<nav class="site-menu">
+				<ul class="site-nav">
+					<li class="site-nav-item">
+						<a href="index.html">Strona główna</a>
+					</li>
+					<li class="site-nav-item">
+						<a href="szkolenia.html">Szkolenia</a>
+					</li>
+					<li class="site-nav-item">
+						<a href="konferencje.html">Konferencje</a>
+					</li>
+					<li class="site-nav-item">
+						<a href="onas.html">O nas</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="main-content">
+				<article>
+					<header>
+						<h1>Krzysiek uczy się programować</h1>
+						<p>Napisał: Krzysiek</p>
+					</header>
+					<p>Niemieckie media tj. „Bild” czy „Die Welt” dotarły do raportu z sekcji zwłok polskiego kierowcy, Łukasza Urbana, którego ciężarówkę wykorzystano do poniedziałkowego zamachu na jeden z berlińskim jarmarków świątecznych.</p>
+					<figure>
+						<img src="http://i1.memy.pl/obrazki/0717845995_profesor.jpg" alt="Profesor Krzysztof Wielki">
+						<figcaption>Prof. Krzysztof</figcaption>
+					</figure>
+					<p>Krzysztof stworzył juz kilka stron wwww. <q>O moich poczynaniach pisały niemieckie media</q> - mówi magik.</p>
+				</article>
+				<form>
+					<div>
+						<label for="nickname">Twój nick:</label>
+					</div>
+					<div>
+						<input type="text" name="nickname" id="nickname" placeholder="nick" required="">
+					</div>
+					<div>
+						<label for="user-email">Twój e-mail:</label>
+					</div>
+					<div>
+						<input type="email" name="user-email" id="user-email" placeholder="e-mail" required="">
+					</div>
+					<div>
+						<label for="content">Treść:</label>
+					</div>
+					<div>
+						<textarea rows="5" cols="40" name="content" id="content" placeholder="Tutaj możesz wpisać treść komentarza. Pamietaj o kulturze wypowiedzi :)" required=""></textarea>
+					</div>
+					<div>
+						<input type="submit" value="wyślij">
+					</div>
+				</form>
+			</div>
+			<aside class="sidebar">
+				<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.</div>
+			</aside>
+		</div>
+	</body>
+</html>
